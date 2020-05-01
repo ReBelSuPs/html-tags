@@ -2,12 +2,24 @@
  <html>
  <head>
  	<title>HTML elements</title>
+ 	<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
  </head>
  <body>
- 	<a href="#bottom">Go to bottom</a>
+ 	<a href="#bottom" style="
+ 		color: cadetblue;
+		text-decoration: none;
+		cursor: pointer;
+ 	">Go to bottom</a>
  	<!-- HTML Paragraphs -->
  	<div id="top">
- 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		<p style="
+ 			background-color: lightgrey;
+ 			border: 2px dashed red;
+ 			padding:  10px 20px 30px 40px;
+ 			margin: 30px;
+ 			font-family: 'Manrope', sans-serif;
+ 			font-size: 20px;
+ 		">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -45,13 +57,13 @@
 		</audio> 
  	</div>
  	<div>
- 		<ul>
+ 		<ul style="list-style-type: circle">
  			<li>List item 1</li>
  			<li>List item 2</li>
  			<li>List item 3</li>
  			<li>List item 4</li>
  		</ul>
- 		<ol>
+ 		<ol style="list-style-type: devanagari;">
  			<li>List item 1</li>
  			<li>List item 2</li>
  			<li>List item 3</li>
@@ -59,7 +71,7 @@
  		</ol>
  	</div>
  	<div>
- 		<pre title="Poem">
+ 		<pre title="Poem" style="white-space: pre-line;">
  			Poem line 1
  			poem line 2
  			poem line 3
