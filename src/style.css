@@ -11,3 +11,15 @@ p {
 	font-family: 'Manrope', sans-serif;
 	font-size: 20px;
 }
+
+* {
+	border: 2px solid lightgrey;
+}
+
+.blue-bg {
+	background-color: aliceblue;
+}
+
+[autoplay] {
+	border-radius: 10px;
+}
